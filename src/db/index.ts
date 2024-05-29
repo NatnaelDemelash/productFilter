@@ -1,6 +1,10 @@
 import { Index } from '@upstash/vector';
 
-type Product = {
+import * as dotenv from 'dotenv';
+
+dotenv.config();
+
+export type Product = {
   id: string;
   imageId: string;
   name: string;
